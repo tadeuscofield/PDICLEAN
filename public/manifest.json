@@ -1,0 +1,12 @@
+{
+  "short_name": "PDIDESCOM",
+  "name": "Chatbot Descomissionamento O&G - ANP 817/2020",
+  "description": "Sistema inteligente com IA para descomissionamento de instalações de petróleo e gás",
+  "icons": [],
+  "start_url": "/",
+  "display": "standalone",
+  "theme_color": "#2563eb",
+  "background_color": "#ffffff",
+  "orientation": "portrait-primary",
+  "categories": ["business", "productivity", "utilities"]
+}
