@@ -295,20 +295,42 @@ const DecommissioningGuide = () => {
 
       {/* Footer com WhatsApp */}
       <footer className="bg-gray-900 text-white py-8 mt-16">
-        <div className="container mx-auto px-4 text-center">
-          <h3 className="text-xl font-bold mb-4">Precisa de ajuda especializada?</h3>
-          <a
-            href="https://wa.me/5521964462281"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="inline-flex items-center gap-3 bg-green-500 hover:bg-green-600 text-white font-bold py-3 px-6 rounded-lg transition-colors shadow-lg"
-          >
-            <Phone className="w-5 h-5" />
-            Fale conosco no WhatsApp
-          </a>
-          <p className="text-gray-400 mt-6 text-sm">
-            © 2025 PDIDESCOM | Base legal: Resolução ANP nº 817/2020
-          </p>
+        <div className="container mx-auto px-4">
+          <div className="text-center mb-6">
+            <h3 className="text-xl font-bold mb-4">Precisa de ajuda especializada?</h3>
+            <a
+              href="https://wa.me/5521964462281"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center gap-3 bg-green-500 hover:bg-green-600 text-white font-bold py-3 px-6 rounded-lg transition-colors shadow-lg"
+            >
+              <Phone className="w-5 h-5" />
+              Fale conosco no WhatsApp
+            </a>
+          </div>
+
+          <div className="flex flex-col md:flex-row justify-between items-center gap-4 pt-6 border-t border-gray-700">
+            {/* Lado Esquerdo - Desenvolvedor */}
+            <div className="flex items-center gap-3">
+              <a
+                href="https://www.linkedin.com/in/tadeu-santana"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex items-center gap-2 bg-gray-800 hover:bg-blue-600 px-4 py-2 rounded-lg transition-colors group"
+                title="LinkedIn do Eng. Tadeu Santana"
+              >
+                <span className="text-2xl">👷</span>
+                <span className="text-sm font-medium group-hover:text-white">
+                  Desenvolvido por Eng. Tadeu Santana
+                </span>
+              </a>
+            </div>
+
+            {/* Centro/Direita - Copyright */}
+            <p className="text-gray-400 text-sm text-center md:text-right">
+              © 2025 PDIDESCOM | Base legal: Resolução ANP nº 817/2020
+            </p>
+          </div>
         </div>
       </footer>
 
