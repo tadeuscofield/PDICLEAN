@@ -313,7 +313,7 @@ const DecommissioningGuide = () => {
             {/* Lado Esquerdo - Desenvolvedor */}
             <div className="flex items-center gap-3">
               <a
-                href="https://www.linkedin.com/in/tadeu-santana"
+                href="https://www.linkedin.com/in/tadeu-santana-037802a2/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center gap-2 bg-gray-800 hover:bg-blue-600 px-4 py-2 rounded-lg transition-colors group"
