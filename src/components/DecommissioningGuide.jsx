@@ -219,11 +219,82 @@ const DecommissioningGuide = () => {
               PDIDESCOM
             </h1>
             <p className="text-blue-200 text-lg">
-              Portal de Consultas sobre Descomissionamento | ANP 817/2020 + NR 30
+              Portal de Consultas sobre Descomissionamento | ANP 817/2020
             </p>
           </div>
         </div>
       </header>
+
+      {/* Espaço para Anunciantes - Patrocinadores */}
+      <div className="bg-gradient-to-r from-amber-50 via-yellow-50 to-amber-50 border-y border-amber-200 py-8">
+        <div className="container mx-auto px-4 max-w-6xl">
+          <div className="text-center mb-6">
+            <p className="text-sm font-semibold text-amber-700 uppercase tracking-wide mb-2">
+              ⭐ Espaço Patrocinador Premium
+            </p>
+            <h2 className="text-2xl font-bold text-gray-800 mb-2">
+              Sua Empresa de Óleo & Gás Aqui
+            </h2>
+            <p className="text-gray-600 max-w-2xl mx-auto">
+              Destaque sua empresa para milhares de profissionais do setor de descomissionamento
+            </p>
+          </div>
+
+          {/* Banner de Anúncio */}
+          <div className="bg-white rounded-xl shadow-xl border-2 border-amber-300 p-8 max-w-4xl mx-auto">
+            <div className="flex flex-col md:flex-row items-center justify-between gap-6">
+              {/* Lado Esquerdo - Informações */}
+              <div className="flex-1 text-center md:text-left">
+                <div className="inline-flex items-center gap-2 bg-gradient-to-r from-blue-600 to-blue-800 text-white px-4 py-2 rounded-lg mb-4">
+                  <span className="text-2xl">🏢</span>
+                  <span className="font-bold">Patrocínio Disponível</span>
+                </div>
+                <h3 className="text-xl font-bold text-gray-800 mb-2">
+                  Alcance Profissionais do Setor
+                </h3>
+                <p className="text-gray-600 mb-4">
+                  Empresas de engenharia, descomissionamento offshore/onshore, serviços técnicos especializados
+                </p>
+                <ul className="text-sm text-gray-700 space-y-2 mb-4">
+                  <li className="flex items-center gap-2">
+                    <span className="text-green-600">✓</span>
+                    <span>Visibilidade para público técnico qualificado</span>
+                  </li>
+                  <li className="flex items-center gap-2">
+                    <span className="text-green-600">✓</span>
+                    <span>Banner premium no topo do portal</span>
+                  </li>
+                  <li className="flex items-center gap-2">
+                    <span className="text-green-600">✓</span>
+                    <span>Link direto para seu site/contato</span>
+                  </li>
+                </ul>
+              </div>
+
+              {/* Lado Direito - CTA */}
+              <div className="flex-shrink-0 text-center">
+                <div className="bg-gradient-to-br from-blue-50 to-blue-100 p-6 rounded-xl border-2 border-blue-300">
+                  <p className="text-sm text-gray-700 mb-3 font-medium">
+                    💼 Anuncie sua empresa aqui
+                  </p>
+                  <a
+                    href="https://wa.me/5521964462281?text=Olá!%20Tenho%20interesse%20em%20anunciar%20no%20PDIDESCOM"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="inline-flex items-center gap-2 bg-gradient-to-r from-green-500 to-green-600 hover:from-green-600 hover:to-green-700 text-white font-bold py-3 px-6 rounded-lg transition-all duration-300 shadow-lg hover:shadow-xl transform hover:scale-105"
+                  >
+                    <Phone className="w-5 h-5" />
+                    Fale Conosco
+                  </a>
+                  <p className="text-xs text-gray-600 mt-3">
+                    WhatsApp: (21) 96446-2281
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
 
       {/* Main Content */}
       <main className="container mx-auto px-4 py-8 max-w-6xl">
